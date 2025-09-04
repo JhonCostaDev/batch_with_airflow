@@ -4,7 +4,7 @@ services:
     environment:
       POSTGRES_DB: banvic
       POSTGRES_USER: data_engineer
-      POSTGRES_PASSWORD: v3rysecur&pas5w0rd
+      POSTGRES_PASSWORD: q
     volumes:
       - ./dbdata:/var/lib/postgresql/data
       - ./banvic.sql:/docker-entrypoint-initdb.d/banvic.sql
